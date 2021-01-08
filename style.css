@@ -1,0 +1,84 @@
+html, p, h1{
+  margin: 0;
+  padding: 0;
+}
+
+body, a{
+  background-color: whitesmoke;
+  font-size: 1rem;
+  color: gray;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  background-color: darkolivegreen;
+  padding: 0.5rem;
+  color: white;
+}
+
+iframe{
+  width: 100vw;
+  height: 90vh;
+}
+
+.menu{
+  display: flex;
+  width: 100%;
+  /* 画面の一枚上に上がるような感じ */
+  position: fixed;
+  bottom: 0;
+} 
+
+.menu a{
+   color: white;
+   background-color: darkolivegreen;
+   width: calc(100vw/2);
+   border: solid 1px white;
+   font-size: 1rem;
+   padding: 0.2rem 0 2rem 0;
+ }
+
+ /* PROFILE */
+ .top{
+   width: 100vw;
+   background-color: whitesmoke;
+   padding-bottom: 5rem;
+ }
+
+  .top h1{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+
+ .profile-box{
+   padding: 1rem;
+ }
+
+ .profile-img{
+   width: 70vw;
+ }
+
+ .profile-text{
+   padding: 1rem;
+ }
+
+ .content p{
+  font-size: 1.2rem;
+ }
+
+ .content a{
+   font-size: 0.8rem;
+ }
+
+/* scrabble */
+  .scrabble-box p{
+   font-size: 0.8rem;
+  }
+
+  .scrabble-text{
+    padding: 1rem 2rem;
+    text-align: left;
+  }
